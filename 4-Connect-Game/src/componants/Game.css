@@ -1,0 +1,29 @@
+.GameBoard {
+    position: absolute;
+    top: 200px;
+    left: 40%;
+    width: 500px;
+    height: 300px;
+    display: grid;
+    grid-template-columns : repeat(4, 70px);
+}
+
+.GameCircle{
+    width: 60px;
+    height: 60px;;
+    border-radius: 50%;
+    border:2px solid black;
+}
+
+.Player_1{
+    background-color: red;
+}
+
+.Player_2{
+    background-color: blue;
+}
+
+.Player_0
+{
+    background-color: #fff;
+}
